@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-rsocket",
+    "version": "4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-jackson",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-reactor-netty",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-rsocket",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.rsocket",
+          "module": "rsocket-transport-netty",
+          "version": {
+            "requires": "1.1.5"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "tools.jackson.dataformat",
+          "module": "jackson-dataformat-cbor",
+          "version": {
+            "requires": "3.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-rsocket-4.0.1.jar",
+          "url": "spring-boot-starter-rsocket-4.0.1.jar",
+          "size": 4741,
+          "sha512": "47ea0792cb11e53b1968b9d2f1a113a47a3471acba2ff5ec75de6453a0863dd58e9e1e4a28f5bc7887de1fb9b366db4d350d2749dfefcff8482ab41d00e99022",
+          "sha256": "8b045a6e9736a927088399acc1d6f8f313647b5a57c2a677d96ad87bee4584e7",
+          "sha1": "3a2e51dd78ffcfc57d41b375b540dcd865c5b0e4",
+          "md5": "535d8c6d61397b5f4aa6dba227e6058a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-jackson",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-reactor-netty",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-rsocket",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.rsocket",
+          "module": "rsocket-transport-netty",
+          "version": {
+            "requires": "1.1.5"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "tools.jackson.dataformat",
+          "module": "jackson-dataformat-cbor",
+          "version": {
+            "requires": "3.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-rsocket-4.0.1.jar",
+          "url": "spring-boot-starter-rsocket-4.0.1.jar",
+          "size": 4741,
+          "sha512": "47ea0792cb11e53b1968b9d2f1a113a47a3471acba2ff5ec75de6453a0863dd58e9e1e4a28f5bc7887de1fb9b366db4d350d2749dfefcff8482ab41d00e99022",
+          "sha256": "8b045a6e9736a927088399acc1d6f8f313647b5a57c2a677d96ad87bee4584e7",
+          "sha1": "3a2e51dd78ffcfc57d41b375b540dcd865c5b0e4",
+          "md5": "535d8c6d61397b5f4aa6dba227e6058a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-rsocket-4.0.1-javadoc.jar",
+          "url": "spring-boot-starter-rsocket-4.0.1-javadoc.jar",
+          "size": 4741,
+          "sha512": "47ea0792cb11e53b1968b9d2f1a113a47a3471acba2ff5ec75de6453a0863dd58e9e1e4a28f5bc7887de1fb9b366db4d350d2749dfefcff8482ab41d00e99022",
+          "sha256": "8b045a6e9736a927088399acc1d6f8f313647b5a57c2a677d96ad87bee4584e7",
+          "sha1": "3a2e51dd78ffcfc57d41b375b540dcd865c5b0e4",
+          "md5": "535d8c6d61397b5f4aa6dba227e6058a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-rsocket-4.0.1-sources.jar",
+          "url": "spring-boot-starter-rsocket-4.0.1-sources.jar",
+          "size": 4741,
+          "sha512": "47ea0792cb11e53b1968b9d2f1a113a47a3471acba2ff5ec75de6453a0863dd58e9e1e4a28f5bc7887de1fb9b366db4d350d2749dfefcff8482ab41d00e99022",
+          "sha256": "8b045a6e9736a927088399acc1d6f8f313647b5a57c2a677d96ad87bee4584e7",
+          "sha1": "3a2e51dd78ffcfc57d41b375b540dcd865c5b0e4",
+          "md5": "535d8c6d61397b5f4aa6dba227e6058a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-rsocket",
+    "version": "4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.rsocket",
+          "module": "rsocket-core",
+          "version": {
+            "requires": "1.1.5"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-messaging",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-rsocket-4.0.1.jar",
+          "url": "spring-boot-rsocket-4.0.1.jar",
+          "size": 65486,
+          "sha512": "2cc11ae17fc313c56a9ee744c447bc84f772d81d2bdd1c524487cfbfbd8a9efa7b9517cb821cf7beffc855d20a980fe1ef58292d634bb781335f25a6be109c6f",
+          "sha256": "6aa774c44e68f58e763b956ba119cd0c957acedb4a3a5951ed68cc77acb26f53",
+          "sha1": "66e0bc9053a2516a4f8120076a26a9fcba88db97",
+          "md5": "739bb75e9cd640809abb319c4d7e1486"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.rsocket",
+          "module": "rsocket-core",
+          "version": {
+            "requires": "1.1.5"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-messaging",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-rsocket-4.0.1.jar",
+          "url": "spring-boot-rsocket-4.0.1.jar",
+          "size": 65486,
+          "sha512": "2cc11ae17fc313c56a9ee744c447bc84f772d81d2bdd1c524487cfbfbd8a9efa7b9517cb821cf7beffc855d20a980fe1ef58292d634bb781335f25a6be109c6f",
+          "sha256": "6aa774c44e68f58e763b956ba119cd0c957acedb4a3a5951ed68cc77acb26f53",
+          "sha1": "66e0bc9053a2516a4f8120076a26a9fcba88db97",
+          "md5": "739bb75e9cd640809abb319c4d7e1486"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-rsocket-4.0.1-javadoc.jar",
+          "url": "spring-boot-rsocket-4.0.1-javadoc.jar",
+          "size": 187378,
+          "sha512": "3b5ccf8a14d70ff0377a4b0f9f56a3099ee30eb14b1432796e805467c5b20fcd2596f91e36b01af38c51e1dc875983565c1ab925194f51520b5857bdaf6977e8",
+          "sha256": "62bacc6d6865b4f5f616d7cce2455c081fe1df784878a38d88c0b8a28b160c05",
+          "sha1": "5b2df37f2ecf26a2b72d9029cb8ad8bb4cfdc0c4",
+          "md5": "ad10664184c273aa5aa6cd53e8f3f078"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-rsocket-4.0.1-sources.jar",
+          "url": "spring-boot-rsocket-4.0.1-sources.jar",
+          "size": 34549,
+          "sha512": "7158f77cda6c726f22b05b80c0e9f88133f939081442293204179b6c8997ad1307a1cf63658d9c6b388ac9935e0ec8d4205b3430972517f36f534058fcb2f9c1",
+          "sha256": "b6e3ed25bc618c3027897afa6c32a975a235ccbf448da244b2e2170e4634f939",
+          "sha1": "a3ce6c45dd5e918d9fc7dc35c9ba1a544b1bd5bc",
+          "md5": "979f197ded9e1d419c1e6ab9bea69e2c"
+        }
+      ]
+    }
+  ]
+}

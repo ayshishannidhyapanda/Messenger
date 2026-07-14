@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.security",
+    "module": "spring-security-rsocket",
+    "version": "7.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "io.rsocket",
+          "module": "rsocket-core",
+          "version": {
+            "requires": "1.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-security-rsocket-7.0.2.jar",
+          "url": "spring-security-rsocket-7.0.2.jar",
+          "size": 55016,
+          "sha512": "d41f98cec8d597845a8431e3667f50d2a43de69f3b8b74bfb155d5599141af89dfa5be84a3f800142ca17f3ad8a437027c6cd68ef5fb3d4075d115c9730a2bbc",
+          "sha256": "4d51bb00f54fd73ac516f43c5e14e1f2a6884c144b24d6aac81681ecb399b0fb",
+          "sha1": "524fae19a209ab85d59a6aa46939a21d089bfff4",
+          "md5": "d6f86da4f0a12db296f0e2c1dcfd5759"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "io.rsocket",
+          "module": "rsocket-core",
+          "version": {
+            "requires": "1.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-security-rsocket-7.0.2.jar",
+          "url": "spring-security-rsocket-7.0.2.jar",
+          "size": 55016,
+          "sha512": "d41f98cec8d597845a8431e3667f50d2a43de69f3b8b74bfb155d5599141af89dfa5be84a3f800142ca17f3ad8a437027c6cd68ef5fb3d4075d115c9730a2bbc",
+          "sha256": "4d51bb00f54fd73ac516f43c5e14e1f2a6884c144b24d6aac81681ecb399b0fb",
+          "sha1": "524fae19a209ab85d59a6aa46939a21d089bfff4",
+          "md5": "d6f86da4f0a12db296f0e2c1dcfd5759"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-security-rsocket-7.0.2-javadoc.jar",
+          "url": "spring-security-rsocket-7.0.2-javadoc.jar",
+          "size": 192685,
+          "sha512": "c8f388f60f8aa89c3d6c17f4885319f1323aac5d396dda11ca6da5ca45bd41936e2ffb2a530cc02d34ebb2624e88d338781edf63a53ba6190445b06a914bb394",
+          "sha256": "ed04e9e19181caf6569633b4c3ec968e35dee520d85586e1ff1f6586e4780bb5",
+          "sha1": "052c81dd7421864e93076543f6ef381b7b547d05",
+          "md5": "beb857d681ef102c1b29b47a298503c6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-security-rsocket-7.0.2-sources.jar",
+          "url": "spring-security-rsocket-7.0.2-sources.jar",
+          "size": 45055,
+          "sha512": "d1d265f7220ad0234d0b3bfb6deef6e37aac4114dcaab5b3d2d67a1830a839a1fbb227beb657efd77d496c51f63a25bc0422b419670aa926f9a73190271bf34c",
+          "sha256": "5e74e3accc2d266febbc5d02b88e0f886d80e664721083ccea8c3a4a594f6efe",
+          "sha1": "493d5b918e86b31a7260b03c4bb6eead8b3fcacb",
+          "md5": "ee9ea8b5347fb765629b25ab2fbb5210"
+        }
+      ]
+    }
+  ]
+}

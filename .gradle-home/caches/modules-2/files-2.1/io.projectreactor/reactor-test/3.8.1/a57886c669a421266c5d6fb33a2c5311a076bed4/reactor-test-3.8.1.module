@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.projectreactor",
+    "module": "reactor-test",
+    "version": "3.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reactor-test-3.8.1.jar",
+          "url": "reactor-test-3.8.1.jar",
+          "size": 143746,
+          "sha512": "e7332dc71ea23f30e3303136acb9640323929920129bf1925a599cea81aa0b7db54c46a4a1d5dd75a3ff4a9f8901ca7e172c7631865be1316308c44fb39eb340",
+          "sha256": "0cfe590b829dfd4540d838e9232800d27a71ff3e85590b65cef27c2a69c27d2c",
+          "sha1": "c81b9ebea8654403966332cc570a757b04b286bf",
+          "md5": "41ee1825aee455cc43a3a7e514dbca94"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reactor-test-3.8.1.jar",
+          "url": "reactor-test-3.8.1.jar",
+          "size": 143746,
+          "sha512": "e7332dc71ea23f30e3303136acb9640323929920129bf1925a599cea81aa0b7db54c46a4a1d5dd75a3ff4a9f8901ca7e172c7631865be1316308c44fb39eb340",
+          "sha256": "0cfe590b829dfd4540d838e9232800d27a71ff3e85590b65cef27c2a69c27d2c",
+          "sha1": "c81b9ebea8654403966332cc570a757b04b286bf",
+          "md5": "41ee1825aee455cc43a3a7e514dbca94"
+        }
+      ]
+    }
+  ]
+}

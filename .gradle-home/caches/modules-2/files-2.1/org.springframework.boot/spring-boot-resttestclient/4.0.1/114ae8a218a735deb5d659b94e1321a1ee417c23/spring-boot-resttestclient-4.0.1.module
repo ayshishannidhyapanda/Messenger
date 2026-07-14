@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-resttestclient",
+    "version": "4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-test",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-http-converter",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-resttestclient-4.0.1.jar",
+          "url": "spring-boot-resttestclient-4.0.1.jar",
+          "size": 33322,
+          "sha512": "e8e2e043170a90dbd3a83e4d2189d747a56ffb805b5bbf14560e6e35cb98f30db547dec87f5b2f5b5a20cab9d46ad3a4c461cfc6bf775a94d6031e2c4c949451",
+          "sha256": "4057dee7bb57782f78de67705eef136c9b8e968540b8249fe0ec4e51dd2f66c2",
+          "sha1": "a2c3f03d21b72e071a7e07577f0991b5131e0805",
+          "md5": "7c37f7a967b1670643a5e024809f5c8f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-test",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-http-converter",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-resttestclient-4.0.1.jar",
+          "url": "spring-boot-resttestclient-4.0.1.jar",
+          "size": 33322,
+          "sha512": "e8e2e043170a90dbd3a83e4d2189d747a56ffb805b5bbf14560e6e35cb98f30db547dec87f5b2f5b5a20cab9d46ad3a4c461cfc6bf775a94d6031e2c4c949451",
+          "sha256": "4057dee7bb57782f78de67705eef136c9b8e968540b8249fe0ec4e51dd2f66c2",
+          "sha1": "a2c3f03d21b72e071a7e07577f0991b5131e0805",
+          "md5": "7c37f7a967b1670643a5e024809f5c8f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-resttestclient-4.0.1-javadoc.jar",
+          "url": "spring-boot-resttestclient-4.0.1-javadoc.jar",
+          "size": 143290,
+          "sha512": "d85f7a709310d8b2f3ad366daf15b85365fb33525e3a16e93962dc4790a814e387659488be93316286cef13471ce6dceab55a66b3a12bceb5c5507060fab17fe",
+          "sha256": "ae4e4a4b22629bea425899ab9698a03b5a3052918d2774d6367ba12203f2343c",
+          "sha1": "e83dfeffacaac3c7e469ee81675107d75be600cf",
+          "md5": "1498e1c59194b03f8d096a3de2f58706"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-resttestclient-4.0.1-sources.jar",
+          "url": "spring-boot-resttestclient-4.0.1-sources.jar",
+          "size": 22225,
+          "sha512": "938d8eab72977302513bcd3270b801bbcc43cb50b3127a6f67dfdee26eec0177f9782b09aa0130da59e90784ced6484514917c85b5ddff3398db2428c93ad771",
+          "sha256": "891aa7d4f39948bac386bd46af71994294653f64a20d85e098c7f99a512f7888",
+          "sha1": "3b3d17b49e510872a9a3212fc117c9bde6e3215a",
+          "md5": "63c731417c358cbbca5317e5d5a26e8e"
+        }
+      ]
+    }
+  ]
+}

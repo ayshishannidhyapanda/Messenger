@@ -22,16 +22,16 @@ import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.MessageExceptionHandler;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
-import org.springframework.messaging.simp.annotation.SendToUser;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
+import org.springframework.messaging.simp.annotation.SendToUser;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.security.Principal;
 import java.time.LocalDateTime;
 import java.util.LinkedHashMap;
-import java.security.Principal;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
@@ -81,6 +81,14 @@ public class ChatController {
         return errorBody("USER_NOT_FOUND", ex.getMessage());
     }
 
+    private Map<String, Object> errorBody(String code, String message) {
+        Map<String, Object> body = new LinkedHashMap<>();
+        body.put("timestamp", LocalDateTime.now());
+        body.put("code", code);
+        body.put("message", message);
+        return body;
+    }
+
     @MessageExceptionHandler(IllegalArgumentException.class)
     @SendToUser("/queue/errors")
     public Map<String, Object> handleIllegalArgument(IllegalArgumentException ex) {
@@ -94,13 +102,5 @@ public class ChatController {
         log.error("Unhandled WebSocket chat failure", ex);
         return errorBody("INTERNAL_ERROR",
                 ex.getMessage() != null ? ex.getMessage() : ex.getClass().getSimpleName());
-    }
-
-    private Map<String, Object> errorBody(String code, String message) {
-        Map<String, Object> body = new LinkedHashMap<>();
-        body.put("timestamp", LocalDateTime.now());
-        body.put("code", code);
-        body.put("message", message);
-        return body;
     }
 }

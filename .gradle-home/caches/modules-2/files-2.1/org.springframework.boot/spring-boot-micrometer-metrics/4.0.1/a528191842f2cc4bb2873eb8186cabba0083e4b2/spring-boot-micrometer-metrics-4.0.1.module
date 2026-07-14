@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-micrometer-metrics",
+    "version": "4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-micrometer-observation",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.16.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-micrometer-metrics-4.0.1.jar",
+          "url": "spring-boot-micrometer-metrics-4.0.1.jar",
+          "size": 242063,
+          "sha512": "cc3c18dff983d54d967b80196acb5a2cdb9c153cfca80775debff2d1b067b727d9557e95331839fd3e23740186801cb8e7d8be4fe7fc16d38e1bf606023bd6de",
+          "sha256": "3490f0c747809ca4880e841553e2f9a41a820fdb5d5b9de591e003de07db3d34",
+          "sha1": "2a65559a92926d1f6af71c0f82f34b0c4f52953e",
+          "md5": "9dd192bd334c1b29c1b0d1a0b636be1f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-micrometer-observation",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.16.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-micrometer-metrics-4.0.1.jar",
+          "url": "spring-boot-micrometer-metrics-4.0.1.jar",
+          "size": 242063,
+          "sha512": "cc3c18dff983d54d967b80196acb5a2cdb9c153cfca80775debff2d1b067b727d9557e95331839fd3e23740186801cb8e7d8be4fe7fc16d38e1bf606023bd6de",
+          "sha256": "3490f0c747809ca4880e841553e2f9a41a820fdb5d5b9de591e003de07db3d34",
+          "sha1": "2a65559a92926d1f6af71c0f82f34b0c4f52953e",
+          "md5": "9dd192bd334c1b29c1b0d1a0b636be1f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-micrometer-metrics-4.0.1-javadoc.jar",
+          "url": "spring-boot-micrometer-metrics-4.0.1-javadoc.jar",
+          "size": 528604,
+          "sha512": "c8fbb563fa85867fd1d95cc213dc5fc6e9ff4f60f8b81c7520f5760bd96d7a85cd3aa3a00171ec109d37ba8471d7b5bc462e18ef94d4ba6897f3fc26e578db4a",
+          "sha256": "ad6048be6af4f6803c5ea95039641ef235c2a1bcd60b6fbdb958f1e55864cafe",
+          "sha1": "ded905f72e8e920a9cc0e04f8c28d4f182ac61c8",
+          "md5": "618fdb127ad49b07ecc873fdd3852f78"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-micrometer-metrics-4.0.1-sources.jar",
+          "url": "spring-boot-micrometer-metrics-4.0.1-sources.jar",
+          "size": 169076,
+          "sha512": "9c0bdb71a1d1e6131a79b3bdafba959542c6a50a0aa49a0150bf9441850756e73cca9081c3a794e195e69bd4ea300a62fa1ea29145dd8aedabd1e7eb6a16afbe",
+          "sha256": "781566f38116f95762dc79ca127690c396246f340fe2ba702d49ebf863fd90cd",
+          "sha1": "8e22a7d4f8113b0ceb8378034749271e7a698744",
+          "md5": "bdd1b3179777c34ab178e6788cbbdaaa"
+        }
+      ]
+    }
+  ]
+}
