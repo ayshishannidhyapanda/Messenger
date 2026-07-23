@@ -15,6 +15,6 @@ export default defineConfig({
     outDir: path.resolve(__dirname, '../src/main/resources/static/web'),
     emptyOutDir: true,
   },
-  // Served at /api/web/ because of server.servlet.context-path=/api
-  base: process.env.NODE_ENV === 'production' ? '/api/web/' : '/',
+  // On Vercel: serve from root '/'. For Spring Boot embed: '/api/web/'
+  base: process.env.VERCEL ? '/' : (process.env.NODE_ENV === 'production' ? '/api/web/' : '/'),
 })
