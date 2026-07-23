@@ -10,9 +10,8 @@ export default defineConfig({
     port: 5173,
   },
   build: {
-    // Build into a /web/ subfolder inside Spring Boot's static resources
-    // so it doesn't conflict with the Flutter web build in the root
-    outDir: path.resolve(__dirname, '../src/main/resources/static/web'),
+    // On Vercel: default 'dist'. For Spring Boot: embed in static resources
+    outDir: process.env.VERCEL ? 'dist' : path.resolve(__dirname, '../src/main/resources/static/web'),
     emptyOutDir: true,
   },
   // On Vercel: serve from root '/'. For Spring Boot embed: '/api/web/'
