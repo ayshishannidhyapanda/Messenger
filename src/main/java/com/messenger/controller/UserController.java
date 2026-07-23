@@ -56,5 +56,15 @@ public class UserController {
         return otpService.verifyOtp(otpVerifyDto);
     }
 
+    @PostMapping("/sendOtp")
+    ResponseEntity<String> sendOtp(@RequestBody java.util.Map<String, String> body) {
+        String mobNumber = body.get("mobNumber");
+        if (mobNumber == null || mobNumber.isBlank()) {
+            return ResponseEntity.badRequest().body("Mobile number is required");
+        }
+        otpService.sendSmsOtp(mobNumber);
+        return ResponseEntity.ok("OTP sent to " + mobNumber);
+    }
+
 
 }

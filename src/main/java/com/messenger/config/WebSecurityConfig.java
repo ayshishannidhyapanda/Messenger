@@ -40,9 +40,11 @@ public class WebSecurityConfig {
             "/v1/register",
             "/v1/verifyOtp",
             "/v1/login",
+            "/v1/sendOtp",
             "/api/v1/register",
             "/api/v1/verifyOtp",
-            "/api/v1/login"
+            "/api/v1/login",
+            "/api/v1/sendOtp"
     };
 
     private static final String[] AUTHENTICATED_WEBSOCKET_ENDPOINTS = {
@@ -74,8 +76,10 @@ public class WebSecurityConfig {
                         .requestMatchers(
                                 "/", "/index.html", "/main.dart.js", "/flutter.js",
                                 "/flutter_bootstrap.js", "/flutter_service_worker.js",
-                                "/favicon.png", "/manifest.json", "/version.json",
-                                "/assets/**", "/icons/**", "/canvaskit/**"
+                                "/favicon.png", "/favicon.svg", "/manifest.json", "/version.json",
+                                "/assets/**", "/icons/**", "/canvaskit/**",
+                                // React web chat app (served from /web/)
+                                "/web/**"
                         ).permitAll()
                         .requestMatchers("/api/actuator/health", "/actuator/health").permitAll()
                         .requestMatchers(HttpMethod.POST, PUBLIC_POST_ENDPOINTS).permitAll()
